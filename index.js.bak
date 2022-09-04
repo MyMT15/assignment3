@@ -3,7 +3,7 @@ function result(){
 	var students= {
 	
 		8790364585: {
-			name: "RAMANA",
+			name: "RAMAnA",
 			math: "95",
 			physics: "80",
 			school:"ZPHS"
