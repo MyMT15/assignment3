@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<title>Check the result</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="java.js"></script>
+	
+</head>
+<body>
+<style>
+html { 
+  background: url(img.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+#main {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("bg.jpg");
+	background-position:center;
+	background-size: cover;
+	position:absolute;
+	width: 25rem;
+	height: 35rem;
+	box-shadow: 10px 10px 15px coral;
+	position: relative;
+	margin: 6% auto;
+	border-radius: 1rem;
+	font-weight: bolder;
+	background-color: #12475f;
+	padding: 8px;
+	color: white;
+	text-align:center;
+}
+
+input{
+	font-weight:bolder;
+	background-color: rgba(0,0,0,0.8);
+	color:white;
+	border:none;
+	margin:10px;
+	padding: 10px;
+	box-shadow: 4px 4px 10px white;
+	border-radius:9px;
+};
+</style>
+<div id="main"
+	<div id="inputs" align="center">
+		<h2> Enter your phone number and find out your exam results</h2>
+		<input type="text" name="" id="studentphone" placeholder="         Student phone">
+		<br>
+		<input type="button" name="" onclick="result()" value="Check your result!">
+		<p id="output"></p>
+	</div>
+</div>
+</body>
+</html>

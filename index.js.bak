@@ -1,0 +1,38 @@
+function result(){
+	
+	var students= {
+	
+		8790364585: {
+			name: "RAMANA",
+			math: "95",
+			physics: "80",
+			school:"ZPHS"
+		},
+		7259490606: {
+			math: "95",
+			physics: "80"
+		},
+		8125837463: {
+			math: "95",
+			physics: "80"
+		},
+		8125837463: {
+			math: "95",
+			physics: "80"
+		}
+		
+		
+	}
+	
+	var studentphone=document.getElementById('studentphone').value;
+	var input=studentphone;
+	var condition=students[input];
+	var output=document.getElementById("output");
+	
+	if (condition==undefined){
+		
+		output.innerHTML=`<hr> There is no information about this student. <hr>`;
+	}else{
+	output.innerHTML=`<hr> <h2> STUDENT NAME: ${condition.name} </h2> <hr> Math score is ${condition.math}. <hr> Physics score is ${condition.physics}.<hr>`;
+	};
+};
